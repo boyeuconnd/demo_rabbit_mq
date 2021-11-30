@@ -6,6 +6,13 @@ public class User {
     private String name;
     private Integer age;
 
+    public User(String userName, String password, String name, Integer age) {
+        this.userName = userName;
+        this.password = password;
+        this.name = name;
+        this.age = age;
+    }
+
     public Integer getAge() {
         return age;
     }
